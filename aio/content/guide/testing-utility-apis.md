@@ -762,7 +762,7 @@ Here are the most useful `DebugElement` members for testers, in approximate orde
 
     <td>
 
-      Dictionary of objects associated with template local variables (e.g. `#foo`),
+      Dictionary of objects associated with template local variables (for example, `#foo`),
       keyed by the local variable name.
 
     </td>
