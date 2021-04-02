@@ -200,7 +200,7 @@ The animation `trigger()` function emits *callbacks* when it starts and when it 
 
 <code-example path="animations/src/app/open-close.component.ts" header="src/app/open-close.component.ts" region="events1" language="typescript"></code-example>
 
-In the HTML template, the animation event is passed back via `$event`, as `@trigger.start` and `@trigger.done`, where `trigger` is the name of the trigger being used.
+In the HTML template, the animation event is passed back using `$event`, as `@trigger.start` and `@trigger.done`, where `trigger` is the name of the trigger being used.
 In this example, the trigger `openClose` appears as follows.
 
 <code-example path="animations/src/app/open-close.component.3.html" header="src/app/open-close.component.html" region="callbacks">
